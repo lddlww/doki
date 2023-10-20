@@ -41,7 +41,7 @@ func (r *Redis) GetLabels() map[string]string {
 		"job": r.proc.Name,
 		//"appid":  r.ins.AppID,
 		//"subapp": r.ins.SubApp,
-		"uuid":   r.ins.UUID,
+		//"uuid":   r.ins.UUID,
 		"ip":     r.proc.Ip,
 		"port":   fmt.Sprintf("%d", r.proc.Port),
 		"type":   "slowlog",
